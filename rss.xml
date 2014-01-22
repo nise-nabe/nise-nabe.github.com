@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link></link>
+    <atom:link rel="self" type="application/rss+xml" href="/rss.html" />
+    <description></description>
+    <pubDate>Thu, 23 Jan 2014 08:37:20 +0900</pubDate>
+    <lastBuildDate>Thu, 23 Jan 2014 08:37:20 +0900</lastBuildDate>
+    
+    <item>
+      <title>first post</title>
+      <link>/2014/01/23/first-post.html</link>
+      <guid isPermaLink="false">2014/01/23:/2014/01/23/first-post.html,rev:1</guid>
+      <pubDate>Thu, 23 Jan 2014 08:36:10 +0900</pubDate>
+      <author>nise_nabe</author>
+      <description></description>
+    </item>
+    
+  </channel> 
+</rss>
