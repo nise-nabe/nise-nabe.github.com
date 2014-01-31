@@ -5,14 +5,23 @@
     <link></link>
     <atom:link rel="self" type="application/rss+xml" href="/rss.html" />
     <description></description>
-    <pubDate>Thu, 23 Jan 2014 09:58:53 +0900</pubDate>
-    <lastBuildDate>Thu, 23 Jan 2014 09:58:53 +0900</lastBuildDate>
+    <pubDate>Fri, 31 Jan 2014 11:36:42 +0900</pubDate>
+    <lastBuildDate>Fri, 31 Jan 2014 11:36:42 +0900</lastBuildDate>
     
     <item>
       <title>first post</title>
       <link>/2014/01/23/first-post.html</link>
       <guid isPermaLink="false">2014/01/23:/2014/01/23/first-post.html,rev:1</guid>
       <pubDate>Thu, 23 Jan 2014 08:36:10 +0900</pubDate>
+      <author>nise_nabe</author>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Groonga http サーバへ php でアクセスするライブラリ書いてる</title>
+      <link>/2014/01/31/groonga-http-php.html</link>
+      <guid isPermaLink="false">2014/01/31:/2014/01/31/groonga-http-php.html,rev:1</guid>
+      <pubDate>Fri, 31 Jan 2014 11:36:06 +0900</pubDate>
       <author>nise_nabe</author>
       <description></description>
     </item>

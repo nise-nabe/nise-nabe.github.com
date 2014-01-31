@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+	<link rel="stylesheet" href="/css/pure-min.css?v=0.3.0" media="all">
+	<link rel="stylesheet" href="/css/cssmodal.css?v=1.0.4" media="all">
+	<link rel="stylesheet" href="/css/blog.css?v=1.0.0" media="all">
+    <title>nise_nabe</title>
+</head>
+<body>
+<div id="layout" class="pure-g-r">
+  <div class="pure-u sidebar">
+    <header class="header">
+      <h1>nise_nabe</h1>
+    </header>
+    <nav class="nav">
+      <ul class="nav-item">
+
+      </ul>
+    </nav>
+  </div>
+  <div class="pure-u-1">
+    <div class="content">
+      <article class="post">
+        <header><h2>Groonga http サーバへ php でアクセスするライブラリ書いてる</h2><p class="meta">2014/01/23 09:56:46</p></header>
+        <div class="post">
+        <p><a href="https://github.com/nise-nabe/groonga-http-php">nise-nabe/groonga-http-php</a></p>
+
+<table>
+<thead>
+<tr>
+<th>コマンド</th>
+<th>実装済みか</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>cache_limit</td>
+<td></td>
+</tr>
+
+<tr>
+<td>check</td>
+<td></td>
+</tr>
+
+<tr>
+<td>clearlock</td>
+<td></td>
+</tr>
+
+<tr>
+<td>column_create</td>
+<td>o</td>
+</tr>
+
+<tr>
+<td>column_list</td>
+<td></td>
+</tr>
+
+<tr>
+<td>column_remove</td>
+<td></td>
+</tr>
+
+<tr>
+<td>column_rename</td>
+<td></td>
+</tr>
+
+<tr>
+<td>define_selector</td>
+<td></td>
+</tr>
+
+<tr>
+<td>defrag</td>
+<td></td>
+</tr>
+
+<tr>
+<td>delete</td>
+<td></td>
+</tr>
+
+<tr>
+<td>dump</td>
+<td></td>
+</tr>
+
+<tr>
+<td>load</td>
+<td>o</td>
+</tr>
+
+<tr>
+<td>log_level</td>
+<td></td>
+</tr>
+
+<tr>
+<td>log_put</td>
+<td></td>
+</tr>
+
+<tr>
+<td>log_reopen</td>
+<td></td>
+</tr>
+
+<tr>
+<td>normalize</td>
+<td></td>
+</tr>
+
+<tr>
+<td>quit</td>
+<td></td>
+</tr>
+
+<tr>
+<td>register</td>
+<td></td>
+</tr>
+
+<tr>
+<td>ruby_eval</td>
+<td></td>
+</tr>
+
+<tr>
+<td>ruby_load</td>
+<td></td>
+</tr>
+
+<tr>
+<td>select</td>
+<td>o</td>
+</tr>
+
+<tr>
+<td>shutdown</td>
+<td></td>
+</tr>
+
+<tr>
+<td>status</td>
+<td>o</td>
+</tr>
+
+<tr>
+<td>suggest</td>
+<td></td>
+</tr>
+
+<tr>
+<td>table_create</td>
+<td>o</td>
+</tr>
+
+<tr>
+<td>table_list</td>
+<td>o</td>
+</tr>
+
+<tr>
+<td>table_remove</td>
+<td>o</td>
+</tr>
+
+<tr>
+<td>tokenize</td>
+<td></td>
+</tr>
+
+<tr>
+<td>truncate</td>
+<td>o</td>
+</tr>
+</tbody>
+</table>
+
+<h2>インストール</h2>
+
+<p>composer でインストールする</p>
+
+<p>composer.json
+<code>
+{
+    &quot;repositories&quot;: [
+        {
+            &quot;type&quot;: &quot;package&quot;,
+            &quot;package&quot;: {
+                &quot;name&quot;: &quot;nise-nabe/groonga-http-php&quot;,
+                &quot;version&quot;: &quot;dev-master&quot;,
+                &quot;source&quot; : {
+                    &quot;url&quot;: &quot;git://github.com/nise-nabe/groonga-http-php&quot;,
+                    &quot;type&quot;: &quot;git&quot;,
+                    &quot;reference&quot;: &quot;master&quot;
+                }
+            }
+        }
+    ],
+    &quot;require&quot;: {
+        &quot;nise-nabe/groonga-http-php&quot;: &quot;dev-master&quot;,
+        &quot;guzzle/guzzle&quot;: &quot;v3.8.0&quot;
+    }
+}
+</code></p>
+
+<pre><code>$ composer install
+</code></pre>
+
+<h3>使い方</h3>
+
+<pre><code>$client = \Groonga\Http\Client('http://localhost:10041');
+$response = $client-&gt;select('User'); # json_decode() された結果が返ってくる
+</code></pre>
+
+<p>このままだと使いにくいので連想配列に変換したものを返すクライアントクラス ExClient を書いてる．</p>
+
+<pre><code>$client = \Groonga\Http\ExClient('http://localhost:10041');
+$response = $client-&gt;select('User'); #  下記形式のように返す
+// array(
+//     'count' =&gt; int,
+//     'columns' =&gt; array
+//     'data' =&gt; array # column =&gt; value の連想配列
+// )
+</code></pre>
+
+        </div>
+      </article>
+      <a href="/">Back to Top</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
