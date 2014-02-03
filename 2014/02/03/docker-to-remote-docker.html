@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+	<link rel="stylesheet" href="/css/pure-min.css?v=0.3.0" media="all">
+	<link rel="stylesheet" href="/css/cssmodal.css?v=1.0.4" media="all">
+	<link rel="stylesheet" href="/css/blog.css?v=1.0.0" media="all">
+    <title>nise_nabe</title>
+</head>
+<body>
+<div id="layout" class="pure-g-r">
+  <div class="pure-u sidebar">
+    <header class="header">
+      <h1>nise_nabe</h1>
+    </header>
+    <nav class="nav">
+    </nav>
+  </div>
+  <div class="pure-u-1">
+    <div class="content">
+      <article class="post">
+        <header><h2>ローカルの Docker client からリモートの Docker につなぐ</h2><p class="meta">2014/02/03 10:46:38</p></header>
+        <div class="post">
+        <h3>目的</h3>
+
+<p>ローカルマシンの docker コマンドでリモートにある Docker サーバにアクセスする．</p>
+
+<p>モチベーションは Mac がローカルだと Docker サーバが入らないし VirtualBox を用いるとディスクを使いすぎるのでローカルでは使いたくないというもの．</p>
+
+<h3>構築後の環境</h3>
+
+<p>リモートで Docker サーバが tcp でコマンドを受け取れる形で立ち上がっている．
+ローカルでは ssh トンネルでリモートの Docker サーバが受けているポートにフォワーディングする．
+ローカルの docker コマンドは ssh トンネルでつながっているポートをホストとして設定してコマンドを実行する．</p>
+
+<h3>環境</h3>
+
+<p>ローカル: Mac OSX
+リモート: Ubuntu 12.04</p>
+
+<h3>設定</h3>
+
+<p>リモート側で /etc/default/docker に下記のように記述する．
+こうすると Docker サーバが unix ソケット以外にも tcp でコマンドを受け取ってくれる．</p>
+
+<pre><code>DOCKER_OPTS=&quot;-H unix:///var/run/docker.sock -H 0.0.0.0:5555&quot;
+</code></pre>
+
+<p>また，ローカルでは 下記のように DOCKER_HOST 変数を設定しておく．</p>
+
+<pre><code>## docker 
+export DOCKER_HOST=&quot;tcp://localhost:5555&quot;
+</code></pre>
+
+<p>.ssh/config で ssh 接続時にフォワーディングが動くように．</p>
+
+<pre><code>Host example.com
+  LocalForward 5555 example.com:5555
+</code></pre>
+
+<p>このままだと毎回 ssh しないといけないので起動時に autossh でつながるようにする．
+Mac だと Automator でアプリケーションとして保存してログイン時起動の設定を行うと良いらしい．<a href="http://jonsview.com/how-to-automatic-ssh-tunnel">参考サイト</a></p>
+
+<h3>動作確認手順</h3>
+
+<p>あとで書く．</p>
+
+        </div>
+      </article>
+      <a href="/">Back to Top</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
