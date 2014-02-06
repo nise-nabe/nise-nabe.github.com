@@ -5,8 +5,8 @@
     <link></link>
     <atom:link rel="self" type="application/rss+xml" href="/rss.html" />
     <description></description>
-    <pubDate>Thu, 06 Feb 2014 14:56:03 +0900</pubDate>
-    <lastBuildDate>Thu, 06 Feb 2014 14:56:03 +0900</lastBuildDate>
+    <pubDate>Thu, 06 Feb 2014 14:59:35 +0900</pubDate>
+    <lastBuildDate>Thu, 06 Feb 2014 14:59:35 +0900</lastBuildDate>
     
     <item>
       <title>first post</title>
@@ -45,10 +45,10 @@
     </item>
     
     <item>
-      <title>DragonflyBSD 2.4 -&gt; 2.6 アップグレードログ</title>
-      <link>/2014/02/06/upgrade-dbsd-24-26.html</link>
-      <guid isPermaLink="false">2014/02/06:/2014/02/06/upgrade-dbsd-24-26.html,rev:1</guid>
-      <pubDate>Thu, 06 Feb 2014 14:50:58 +0900</pubDate>
+      <title>DragonflyBSD 3.4 -&gt; 3.6 アップグレードログ</title>
+      <link>/2014/02/06/upgrade-dbsd-34-36.html</link>
+      <guid isPermaLink="false">2014/02/06:/2014/02/06/upgrade-dbsd-34-36.html,rev:1</guid>
+      <pubDate>Thu, 06 Feb 2014 14:59:22 +0900</pubDate>
       <author>nise_nabe</author>
       <description></description>
     </item>
