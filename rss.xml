@@ -5,8 +5,8 @@
     <link></link>
     <atom:link rel="self" type="application/rss+xml" href="/rss.html" />
     <description></description>
-    <pubDate>Sun, 09 Feb 2014 04:52:19 +0900</pubDate>
-    <lastBuildDate>Sun, 09 Feb 2014 04:52:19 +0900</lastBuildDate>
+    <pubDate>Mon, 10 Feb 2014 10:57:51 +0900</pubDate>
+    <lastBuildDate>Mon, 10 Feb 2014 10:57:51 +0900</lastBuildDate>
     
     <item>
       <title>first post</title>
@@ -18,10 +18,10 @@
     </item>
     
     <item>
-      <title>Groonga http サーバへ php でアクセスするライブラリ書いてる</title>
+      <title>Groonga http サーバへ php でアクセスするライブラリ書いた</title>
       <link>/2014/01/31/groonga-http-php.html</link>
-      <guid isPermaLink="false">2014/02/03:/2014/01/31/groonga-http-php.html,rev:1</guid>
-      <pubDate>Mon, 03 Feb 2014 11:22:44 +0900</pubDate>
+      <guid isPermaLink="false">2014/02/10:/2014/01/31/groonga-http-php.html,rev:1</guid>
+      <pubDate>Mon, 10 Feb 2014 10:57:46 +0900</pubDate>
       <author>nise_nabe</author>
       <description></description>
     </item>
