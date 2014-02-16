@@ -5,8 +5,8 @@
     <link></link>
     <atom:link rel="self" type="application/rss+xml" href="/rss.html" />
     <description></description>
-    <pubDate>Sat, 15 Feb 2014 13:07:50 +0900</pubDate>
-    <lastBuildDate>Sat, 15 Feb 2014 13:07:50 +0900</lastBuildDate>
+    <pubDate>Sun, 16 Feb 2014 22:18:59 +0900</pubDate>
+    <lastBuildDate>Sun, 16 Feb 2014 22:18:59 +0900</lastBuildDate>
     
     <item>
       <title>first post</title>
@@ -58,6 +58,15 @@
       <link>/2014/02/09/upgrade-redis-to-2.8.5.html</link>
       <guid isPermaLink="false">2014/02/09:/2014/02/09/upgrade-redis-to-2.8.5.html,rev:1</guid>
       <pubDate>Sun, 09 Feb 2014 03:41:27 +0900</pubDate>
+      <author>nise_nabe</author>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Redis 2.8.5 -&gt; 2.8.6 upgrade ログ</title>
+      <link>/2014/02/16/upgrade-redis-2.8.6.html</link>
+      <guid isPermaLink="false">2014/02/16:/2014/02/16/upgrade-redis-2.8.6.html,rev:1</guid>
+      <pubDate>Sun, 16 Feb 2014 22:17:45 +0900</pubDate>
       <author>nise_nabe</author>
       <description></description>
     </item>
