@@ -28,7 +28,7 @@
         <div class="post">
         <p>こんな感じでよいらしい？</p>
 
-<p>つまり それぞれ paths で指定した上で shim に jquery を記述し， define では読み出すだけでそのまま呼び出すことはないので引き数に渡さないという感じ:．</p>
+<p>つまり それぞれ paths で指定した上で shim に jquery を記述し， requirejs では読み出すだけでそのまま呼び出すことはないので引き数に渡さないという感じ:．</p>
 
 <pre><code>requirejs.config({
   baseUrl : '/js',
@@ -43,7 +43,7 @@
   }
 });
 
-define(['jquery', 'mustache', 'fancybox'], function($) {
+requirejs(['jquery', 'mustache', 'fancybox'], function($) {
   $.ajax({
     url: '/test.json'
   }).done(function(ret) {

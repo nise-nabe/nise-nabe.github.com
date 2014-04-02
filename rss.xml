@@ -5,8 +5,8 @@
     <link></link>
     <atom:link rel="self" type="application/rss+xml" href="/rss.html" />
     <description></description>
-    <pubDate>Wed, 02 Apr 2014 12:03:39 +0900</pubDate>
-    <lastBuildDate>Wed, 02 Apr 2014 12:03:39 +0900</lastBuildDate>
+    <pubDate>Wed, 02 Apr 2014 14:26:33 +0900</pubDate>
+    <lastBuildDate>Wed, 02 Apr 2014 14:26:33 +0900</lastBuildDate>
     
     <item>
       <title>first post</title>
@@ -75,7 +75,7 @@
       <title>RequireJS を使った時に jquery プラグインを使う方法</title>
       <link>/2014/04/02/require-js-jquery-plugin.html</link>
       <guid isPermaLink="false">2014/04/02:/2014/04/02/require-js-jquery-plugin.html,rev:1</guid>
-      <pubDate>Wed, 02 Apr 2014 12:03:37 +0900</pubDate>
+      <pubDate>Wed, 02 Apr 2014 14:26:29 +0900</pubDate>
       <author>nise_nabe</author>
       <description></description>
     </item>
