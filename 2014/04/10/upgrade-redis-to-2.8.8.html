@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+	<link rel="stylesheet" href="/css/pure-min.css?v=0.4.2" media="all">
+	<link rel="stylesheet" href="/css/cssmodal.css?v=1.0.4" media="all">
+	<link rel="stylesheet" href="/css/blog.css?v=1.0.0" media="all">
+    <title>nise_nabe</title>
+</head>
+<body>
+<div id="layout" class="pure-g-r">
+  <div class="pure-u sidebar">
+    <header class="header">
+      <h1>nise_nabe</h1>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="pure-button" href="http://www.nisecoder.com">Home</a></li>
+          <li class="nav-item"><a class="pure-button" href="/">Blog Top</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  <div class="pure-u-1">
+    <div class="content">
+      <article class="post">
+        <header><h2>2.8.8 install ログ</h2><p class="meta">2014/02/10 11:00:25</p></header>
+        <div class="post">
+        <h3>環境</h3>
+
+<p>debian 7</p>
+
+<h3>手順</h3>
+
+<pre><code>$ curl -O http://download.redis.io/releases/redis-2.8.8.tar.gz
+$ tar xvf redis-2.8.8.tar.gz
+$ cd redis-2.8.8
+$ make
+...
+zmalloc.h:50:31: fatal error: jemalloc/jemalloc.h: No such file or directory
+compilation terminated.
+make[1]: *** [adlist.o] Error 1
+make[1]: Leaving directory `/path/to/redis-2.8.8/src'
+make: *** [all] Error 2
+</code></pre>
+
+<p>原因はたぶん自分で入れた gcc のせいっぽいので debian のパッケージの gcc を使うように変更．
+gcc を自分でビルドしてるといろいろひっかかりそうなので今後気をつける．
+（たぶんビルドオプションが足りない？）</p>
+
+<pre><code>$ gcc --version
+gcc (GCC) 4.8.1
+Copyright (C) 2013 Free Software Foundation, Inc.                                                                                                                                  
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+$ /usr/bin/gcc --version
+gcc (Debian 4.7.2-5) 4.7.2
+Copyright (C) 2012 Free Software Foundation, Inc.                                                                                                                                  
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+</code></pre>
+
+<p>続き</p>
+
+<pre><code>$ PATH=/usr/bin:$PATH make
+</code></pre>
+
+<p>ビルド成功</p>
+
+        </div>
+      </article>
+      <a href="/">Back to Top</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
