@@ -5,8 +5,8 @@
     <link></link>
     <atom:link rel="self" type="application/rss+xml" href="/rss.html" />
     <description></description>
-    <pubDate>Thu, 10 Apr 2014 11:11:42 +0900</pubDate>
-    <lastBuildDate>Thu, 10 Apr 2014 11:11:42 +0900</lastBuildDate>
+    <pubDate>Thu, 08 May 2014 02:57:56 +0900</pubDate>
+    <lastBuildDate>Thu, 08 May 2014 02:57:56 +0900</lastBuildDate>
     
     <item>
       <title>first post</title>
@@ -85,6 +85,15 @@
       <link>/2014/04/10/upgrade-redis-to-2.8.8.html</link>
       <guid isPermaLink="false">2014/04/10:/2014/04/10/upgrade-redis-to-2.8.8.html,rev:1</guid>
       <pubDate>Thu, 10 Apr 2014 11:11:22 +0900</pubDate>
+      <author>nise_nabe</author>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nginx 1.4 -&gt; 1.6 アップグレードログ</title>
+      <link>/2014/05/08/upgrade-nginx-14to16.html</link>
+      <guid isPermaLink="false">2014/05/08:/2014/05/08/upgrade-nginx-14to16.html,rev:1</guid>
+      <pubDate>Thu, 08 May 2014 02:57:46 +0900</pubDate>
       <author>nise_nabe</author>
       <description></description>
     </item>
