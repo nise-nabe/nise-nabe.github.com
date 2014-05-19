@@ -5,8 +5,8 @@
     <link></link>
     <atom:link rel="self" type="application/rss+xml" href="/rss.html" />
     <description></description>
-    <pubDate>Tue, 20 May 2014 01:09:08 +0900</pubDate>
-    <lastBuildDate>Tue, 20 May 2014 01:09:08 +0900</lastBuildDate>
+    <pubDate>Tue, 20 May 2014 01:10:16 +0900</pubDate>
+    <lastBuildDate>Tue, 20 May 2014 01:10:16 +0900</lastBuildDate>
     
     <item>
       <title>first post</title>
@@ -99,10 +99,10 @@
     </item>
     
     <item>
-      <title>first post</title>
+      <title>nginx 1.6 build ログ</title>
       <link>/2014/05/20/ubuntu-nginx-build.html</link>
       <guid isPermaLink="false">2014/05/20:/2014/05/20/ubuntu-nginx-build.html,rev:1</guid>
-      <pubDate>Tue, 20 May 2014 01:08:54 +0900</pubDate>
+      <pubDate>Tue, 20 May 2014 01:10:13 +0900</pubDate>
       <author>nise_nabe</author>
       <description></description>
     </item>
