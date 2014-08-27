@@ -5,8 +5,8 @@
     <link></link>
     <atom:link rel="self" type="application/rss+xml" href="/rss.html" />
     <description></description>
-    <pubDate>Thu, 29 May 2014 19:32:47 +0900</pubDate>
-    <lastBuildDate>Thu, 29 May 2014 19:32:47 +0900</lastBuildDate>
+    <pubDate>Wed, 27 Aug 2014 11:37:19 +0900</pubDate>
+    <lastBuildDate>Wed, 27 Aug 2014 11:37:19 +0900</lastBuildDate>
     
     <item>
       <title>first post</title>
@@ -103,6 +103,24 @@
       <link>/2014/05/20/ubuntu-nginx-build.html</link>
       <guid isPermaLink="false">2014/05/20:/2014/05/20/ubuntu-nginx-build.html,rev:1</guid>
       <pubDate>Tue, 20 May 2014 01:10:13 +0900</pubDate>
+      <author>nise_nabe</author>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phalcon のリレーションについて</title>
+      <link>/2014/05/30/phalcon-foreign.html</link>
+      <guid isPermaLink="false">2014/05/30:/2014/05/30/phalcon-foreign.html,rev:1</guid>
+      <pubDate>Fri, 30 May 2014 12:52:43 +0900</pubDate>
+      <author>nise_nabe</author>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cocos2d-js v3.0-rc2 frameRate が効かない問題について</title>
+      <link>/2014/08/27/cocos2d-js-v30rc2-bug.html</link>
+      <guid isPermaLink="false">2014/08/27:/2014/08/27/cocos2d-js-v30rc2-bug.html,rev:1</guid>
+      <pubDate>Wed, 27 Aug 2014 11:36:25 +0900</pubDate>
       <author>nise_nabe</author>
       <description></description>
     </item>
