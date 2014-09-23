@@ -5,8 +5,8 @@
     <link></link>
     <atom:link rel="self" type="application/rss+xml" href="/rss.html" />
     <description></description>
-    <pubDate>Wed, 24 Sep 2014 00:39:15 +0900</pubDate>
-    <lastBuildDate>Wed, 24 Sep 2014 00:39:15 +0900</lastBuildDate>
+    <pubDate>Wed, 24 Sep 2014 00:43:04 +0900</pubDate>
+    <lastBuildDate>Wed, 24 Sep 2014 00:43:04 +0900</lastBuildDate>
     
     <item>
       <title>first post</title>
@@ -119,8 +119,8 @@
     <item>
       <title>cocos2d-js v3.0-rc2 frameRate が効かない問題について</title>
       <link>/2014/08/27/cocos2d-js v3.0-rc2 frameRate が効かない問題について.html</link>
-      <guid isPermaLink="false">2014/08/27:/2014/08/27/cocos2d-js v3.0-rc2 frameRate が効かない問題について.html,rev:1</guid>
-      <pubDate>Wed, 27 Aug 2014 11:36:25 +0900</pubDate>
+      <guid isPermaLink="false">2014/09/24:/2014/08/27/cocos2d-js v3.0-rc2 frameRate が効かない問題について.html,rev:1</guid>
+      <pubDate>Wed, 24 Sep 2014 00:42:55 +0900</pubDate>
       <author>nise_nabe</author>
       <description></description>
     </item>
@@ -138,7 +138,7 @@
       <title>cocos2d-js v3.0 では初期化処理を ctor に書く</title>
       <link>/2014/09/24/cocos2d-js v3.0 では初期化処理を ctor に書く.html</link>
       <guid isPermaLink="false">2014/09/24:/2014/09/24/cocos2d-js v3.0 では初期化処理を ctor に書く.html,rev:1</guid>
-      <pubDate>Wed, 24 Sep 2014 00:39:08 +0900</pubDate>
+      <pubDate>Wed, 24 Sep 2014 00:41:59 +0900</pubDate>
       <author>nise_nabe</author>
       <description></description>
     </item>
