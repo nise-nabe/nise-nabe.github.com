@@ -5,8 +5,8 @@
     <link></link>
     <atom:link rel="self" type="application/rss+xml" href="/rss.html" />
     <description></description>
-    <pubDate>Mon, 15 Sep 2014 17:44:58 +0900</pubDate>
-    <lastBuildDate>Mon, 15 Sep 2014 17:44:58 +0900</lastBuildDate>
+    <pubDate>Wed, 24 Sep 2014 00:39:15 +0900</pubDate>
+    <lastBuildDate>Wed, 24 Sep 2014 00:39:15 +0900</lastBuildDate>
     
     <item>
       <title>first post</title>
@@ -130,6 +130,15 @@
       <link>/2014/09/06/DragonflyBSD 3.8.9 -&gt; 3.8.2.11 アップグレードログ.html</link>
       <guid isPermaLink="false">2014/09/06:/2014/09/06/DragonflyBSD 3.8.9 -&gt; 3.8.2.11 アップグレードログ.html,rev:1</guid>
       <pubDate>Sat, 06 Sep 2014 15:45:07 +0900</pubDate>
+      <author>nise_nabe</author>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cocos2d-js v3.0 では初期化処理を ctor に書く</title>
+      <link>/2014/09/24/cocos2d-js v3.0 では初期化処理を ctor に書く.html</link>
+      <guid isPermaLink="false">2014/09/24:/2014/09/24/cocos2d-js v3.0 では初期化処理を ctor に書く.html,rev:1</guid>
+      <pubDate>Wed, 24 Sep 2014 00:39:08 +0900</pubDate>
       <author>nise_nabe</author>
       <description></description>
     </item>
